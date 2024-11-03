@@ -20,11 +20,7 @@ jobs:
     env:
       REGISTRY: docker.io
       IMAGE_NAME: my-docker-hub-namespace/my-docker-hub-repository
-    permissions:
-      packages: write
-      contents: read
-      attestations: write
-      id-token: write
+
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
