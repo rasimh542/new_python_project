@@ -1,5 +1,5 @@
 import pytest
-from your_module_name import sanitize, read_file, analyze_friends
+from Friends import sanitize, read_file, analyze_friends
 
 @pytest.fixture
 def mock_friends_file(tmp_path):
